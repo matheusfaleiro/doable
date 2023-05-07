@@ -9,7 +9,9 @@ import SwiftUI
 
 struct RegistrationView: View {
     var body: some View {
-        Text("Registration")
+        VStack {
+            HeaderView(title: "Register", subTitle: "Create New Account", angle: -15, backgroundColor: .indigo)
+        }
     }
 }
 
